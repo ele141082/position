@@ -1,0 +1,52 @@
+.container {
+    position: relative;
+    height: 300px;
+    width: 700px;
+    background-color: aqua;
+}
+
+/*.box-1 {
+    height: 25%;
+    width: 35%;
+    background-color: blue;
+}
+
+.box-2 {
+    position: relative;
+    left: 90%;
+    height: 25%;
+    width: 10%;
+    background-color: blueviolet;
+}
+
+.box-3 {
+    height: 25%;
+    width: 35%;
+    background-color: yellow;
+} */
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+}
+
+.rectangle {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 30%;
+    width: 30%;
+    background-color: red;
+}
+
+.square-top-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.square-bottom {
+    position: absolute;
+    bottom: 0;
+}
